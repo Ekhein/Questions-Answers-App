@@ -25,7 +25,7 @@
     End Sub
 
     Private Sub UpdateAnswerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UpdateAnswerToolStripMenuItem.Click
-        Dim updateAnswerForm As New UpdateAnswer(getAnswerId())
+        Dim updateAnswerForm As New UpdateAnswer(getAnswerId(), getAnswerValue("answer"))
         updateAnswerForm.ShowDialog()
         LoadAnswers()
     End Sub
