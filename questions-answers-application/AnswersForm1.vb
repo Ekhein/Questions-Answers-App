@@ -1,7 +1,6 @@
 ﻿Public Class AnswersForm1
     Protected db As New db
     Protected question_id As Integer
-    Protected answer_id As Integer
 
     Public Sub New(ByRef qid As Integer)
         ' This call is required by the designer.
@@ -54,8 +53,8 @@
         Dim confirmed As Integer = MessageBox.Show("Are you sure you want to delete this?", "Delete", MessageBoxButtons.YesNoCancel)
 
         If confirmed = DialogResult.Yes Then
-            db.sql = "DELETE FROM answers WHERE id = @question_id"
-            db.bind("@question_id", question_id)
+            db.sql = "DELETE FROM answers WHERE id = @answer_id"
+            db.bind("@answer_id", getAnswerId)
             db.execute()
             LoadAnswers()
         End If
