@@ -48,4 +48,8 @@ Public Class welcome
         Dim answersForm As New AnswersForm1(getQuestionId())
         answersForm.ShowDialog()
     End Sub
+
+    Private Sub CreateAnswersToolStripMenuItem_Click(sender As Object, e As EventArgs)
+
+    End Sub
 End Class
