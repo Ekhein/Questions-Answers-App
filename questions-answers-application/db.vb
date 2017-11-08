@@ -38,7 +38,7 @@ Public Class db
             End If
         Catch ex As Exception
             MsgBox(ex.Message)
-            Throw ex
+        Throw ex
         Finally
             If connection.State = ConnectionState.Open Then
                 connection.Close()

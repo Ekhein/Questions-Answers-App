@@ -44,7 +44,7 @@
         LoadAnswers()
     End Sub
 
-    Private Sub btnCreateAnswerSubmit_Click(sender As Object, e As EventArgs) Handles btnCreateAnswerSubmit.Click
+    Private Sub btnCreateAnswerSubmit_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -60,4 +60,5 @@
         End If
         Me.Dispose()
     End Sub
+
 End Class

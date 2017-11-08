@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class AnswersForm1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class AnswersForm1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.dgvAnswers = New System.Windows.Forms.DataGridView()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
@@ -28,7 +28,6 @@ Partial Class AnswersForm1
         Me.CreateAnswerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UpdateAnswerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DeleteAnswerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.btnCreateAnswerSubmit = New System.Windows.Forms.Button()
         CType(Me.dgvAnswers, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -81,23 +80,11 @@ Partial Class AnswersForm1
         Me.DeleteAnswerToolStripMenuItem.Size = New System.Drawing.Size(117, 24)
         Me.DeleteAnswerToolStripMenuItem.Text = "Delete Answer"
         '
-        'btnCreateAnswerSubmit
-        '
-        Me.btnCreateAnswerSubmit.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCreateAnswerSubmit.Location = New System.Drawing.Point(13, 471)
-        Me.btnCreateAnswerSubmit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.btnCreateAnswerSubmit.Name = "btnCreateAnswerSubmit"
-        Me.btnCreateAnswerSubmit.Size = New System.Drawing.Size(908, 76)
-        Me.btnCreateAnswerSubmit.TabIndex = 4
-        Me.btnCreateAnswerSubmit.Text = "Submit"
-        Me.btnCreateAnswerSubmit.UseVisualStyleBackColor = True
-        '
         'AnswersForm1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(932, 562)
-        Me.Controls.Add(Me.btnCreateAnswerSubmit)
+        Me.ClientSize = New System.Drawing.Size(932, 477)
         Me.Controls.Add(Me.dgvAnswers)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
@@ -118,5 +105,4 @@ Partial Class AnswersForm1
     Friend WithEvents CreateAnswerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents UpdateAnswerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DeleteAnswerToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents btnCreateAnswerSubmit As Button
 End Class
