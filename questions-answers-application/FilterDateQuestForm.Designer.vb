@@ -72,6 +72,7 @@ Partial Class FilterDateQuestForm
         '
         'FilterDateQuestForm
         '
+        Me.AccessibleRole = System.Windows.Forms.AccessibleRole.None
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.Label2)

@@ -121,6 +121,10 @@
   <data name="dgvUnansweredQuest.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 98</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvUnansweredQuest.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="dgvUnansweredQuest.Size" type="System.Drawing.Size, System.Drawing">
     <value>772, 511</value>
   </data>
@@ -143,14 +147,11 @@
   <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="LoadFilteredQuestToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 24</value>
-  </data>
-  <data name="LoadFilteredQuestToolStripMenuItem.Text" xml:space="preserve">
-    <value>Load Filtered Questions</value>
-  </data>
   <data name="MenuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="MenuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 2, 0, 2</value>
   </data>
   <data name="MenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>796, 28</value>
@@ -173,8 +174,17 @@
   <data name="&gt;&gt;MenuStrip1.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="LoadFilteredQuestToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 24</value>
+  </data>
+  <data name="LoadFilteredQuestToolStripMenuItem.Text" xml:space="preserve">
+    <value>Load Filtered Questions</value>
+  </data>
   <data name="tbBegDate.Location" type="System.Drawing.Point, System.Drawing">
     <value>143, 49</value>
+  </data>
+  <data name="tbBegDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="tbBegDate.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 22</value>
@@ -198,7 +208,7 @@
     <value>True</value>
   </data>
   <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 49</value>
+    <value>29, 49</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 17</value>
@@ -258,10 +268,16 @@
     <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>796, 621</value>
+    <value>796, 622</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>UnansweredQuestForm</value>
+    <value>FilterDateQuestForm</value>
   </data>
   <data name="&gt;&gt;LoadFilteredQuestToolStripMenuItem.Name" xml:space="preserve">
     <value>LoadFilteredQuestToolStripMenuItem</value>

@@ -28,8 +28,8 @@ Partial Class welcome
         Me.UpdateQuestionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DeleteQuestionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ShowAnswersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FilterDateQuestToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.dgvQuestions = New System.Windows.Forms.DataGridView()
-        Me.UnansweredQuestionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.welcomeMenuStrip.SuspendLayout()
         CType(Me.dgvQuestions, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -37,7 +37,7 @@ Partial Class welcome
         'welcomeMenuStrip
         '
         Me.welcomeMenuStrip.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.welcomeMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoadToolStripMenuItem, Me.CreateQuestionToolStripMenuItem, Me.UpdateQuestionToolStripMenuItem, Me.DeleteQuestionToolStripMenuItem, Me.ShowAnswersToolStripMenuItem, Me.UnansweredQuestionsToolStripMenuItem})
+        Me.welcomeMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoadToolStripMenuItem, Me.CreateQuestionToolStripMenuItem, Me.UpdateQuestionToolStripMenuItem, Me.DeleteQuestionToolStripMenuItem, Me.ShowAnswersToolStripMenuItem, Me.FilterDateQuestToolStripMenuItem})
         Me.welcomeMenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.welcomeMenuStrip.Name = "welcomeMenuStrip"
         Me.welcomeMenuStrip.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
@@ -75,6 +75,12 @@ Partial Class welcome
         Me.ShowAnswersToolStripMenuItem.Size = New System.Drawing.Size(115, 24)
         Me.ShowAnswersToolStripMenuItem.Text = "Show Answers"
         '
+        'FilterDateQuestToolStripMenuItem
+        '
+        Me.FilterDateQuestToolStripMenuItem.Name = "FilterDateQuestToolStripMenuItem"
+        Me.FilterDateQuestToolStripMenuItem.Size = New System.Drawing.Size(216, 24)
+        Me.FilterDateQuestToolStripMenuItem.Text = "Show Date Filtered Questions"
+        '
         'dgvQuestions
         '
         Me.dgvQuestions.AllowUserToAddRows = False
@@ -83,17 +89,11 @@ Partial Class welcome
         Me.dgvQuestions.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvQuestions.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgvQuestions.Location = New System.Drawing.Point(0, 28)
-        Me.dgvQuestions.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.dgvQuestions.Margin = New System.Windows.Forms.Padding(4)
         Me.dgvQuestions.Name = "dgvQuestions"
         Me.dgvQuestions.ReadOnly = True
         Me.dgvQuestions.Size = New System.Drawing.Size(1352, 723)
         Me.dgvQuestions.TabIndex = 1
-        '
-        'UnansweredQuestionsToolStripMenuItem
-        '
-        Me.UnansweredQuestionsToolStripMenuItem.Name = "UnansweredQuestionsToolStripMenuItem"
-        Me.UnansweredQuestionsToolStripMenuItem.Size = New System.Drawing.Size(211, 24)
-        Me.UnansweredQuestionsToolStripMenuItem.Text = "Show Unanswered Questions"
         '
         'welcome
         '
@@ -103,7 +103,7 @@ Partial Class welcome
         Me.Controls.Add(Me.dgvQuestions)
         Me.Controls.Add(Me.welcomeMenuStrip)
         Me.MainMenuStrip = Me.welcomeMenuStrip
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "welcome"
         Me.Text = "Welcome"
         Me.welcomeMenuStrip.ResumeLayout(False)
@@ -121,5 +121,5 @@ Partial Class welcome
     Friend WithEvents UpdateQuestionToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DeleteQuestionToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ShowAnswersToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents UnansweredQuestionsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents FilterDateQuestToolStripMenuItem As ToolStripMenuItem
 End Class

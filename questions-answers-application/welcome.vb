@@ -49,9 +49,9 @@ Public Class welcome
         answersForm.ShowDialog()
     End Sub
 
-    Private Sub UnansweredQuestionsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UnansweredQuestionsToolStripMenuItem.Click
+    Private Sub UnansweredQuestionsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FilterDateQuestToolStripMenuItem.Click
         Dim UnansweredForm As New FilterDateQuestForm(getQuestionId())
-        UnansweredForm.ShowDialog()
+        UnansweredForm.Show()
 
     End Sub
 End Class

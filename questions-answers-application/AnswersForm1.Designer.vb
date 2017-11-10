@@ -90,6 +90,7 @@ Partial Class AnswersForm1
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "AnswersForm1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "AnswersForm1"
         CType(Me.dgvAnswers, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
